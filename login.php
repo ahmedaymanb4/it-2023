@@ -1,3 +1,3 @@
-<?php include 'services/header.php'; 
-?>
-<?php include 'services/footer.php'; ?>
+<?php include 'init.php' ?>
+
+<?php include 'includes/templates/footer.php' ?>
