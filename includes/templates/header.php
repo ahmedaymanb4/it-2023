@@ -13,6 +13,8 @@ include 'includes/functions/getCSSFile.php';
     <title><?php getPageTitle() ?></title>
     <?php getCSSFile() ?>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="/public/css/icons.min.css" rel="stylesheet">
+    <script src="/public/js/jquery-3.6.4.min.js"></script>
 </head>
 <body>
 
@@ -36,7 +38,7 @@ include 'includes/functions/getCSSFile.php';
             </ul>
             <form class="d-flex" action="/products.php" method="GET" role="search">
                 <input class="form-control me-2" minlength="3" name="search" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                <button class="btn btn-outline-success" type="submit"><i class="fa-light fa-magnifying-glass"></i></button>
             </form>
         </div>
     </div>

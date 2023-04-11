@@ -18,6 +18,7 @@ $products = getThree($conn);
                 <div class="card-header">Users</div>
                 <div class="card-body">
                     <h5 class="card-title">Total users: 10</h5>
+                    <h6>Latest users:</h6>
                     <ul class="adminList">
                         <li>
                             <p>Ahmed</p> <div><a class="btn btn-primary">View</a></div>

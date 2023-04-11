@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 09, 2023 at 09:47 PM
+-- Generation Time: Apr 12, 2023 at 01:06 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -69,7 +69,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `isAdmin`) VALUES
-(1, 'ahmed', 'iifire005@gmail.com', 'ahmed', 1);
+(1, 'ahmed', 'iifire005@gmail.com', '114ba4fb31c1cb028f58ae30a210e66cb7e787fc', 1);
 
 --
 -- Indexes for dumped tables
@@ -86,7 +86,8 @@ ALTER TABLE `products`
 -- Indexes for table `users`
 --
 ALTER TABLE `users`
-  ADD PRIMARY KEY (`id`);
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- AUTO_INCREMENT for dumped tables
